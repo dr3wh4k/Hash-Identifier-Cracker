@@ -72,4 +72,3 @@ Solo Python 3.9+ (usa la librería estándar `hashlib`, sin dependencias externa
 
 ---
 
-Parte de mi práctica en ciberseguridad — más proyectos y writeups en [dr3wh4k.github.io](https://dr3wh4k.github.io) y [CTF-writeups](https://github.com/dr3wh4k/CTF-writeups).
