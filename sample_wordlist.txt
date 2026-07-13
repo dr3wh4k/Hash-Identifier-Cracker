@@ -4,7 +4,7 @@ qwerty
 admin
 letmein
 hacker
-dr3wh4k
+password1234
 cybersecurity
 hunter2
 ctf2024
