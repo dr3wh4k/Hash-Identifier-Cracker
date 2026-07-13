@@ -1,4 +1,3 @@
-
 # 🔓 Hash Toolkit — Identificador y Cracker de Hashes (educativo)
 
 Herramienta de línea de comandos escrita en Python que:
@@ -9,6 +8,27 @@ Herramienta de línea de comandos escrita en Python que:
 Proyecto creado con fines educativos para practicar conceptos de hashing y seguridad de contraseñas en laboratorios propios y CTFs.
 
 > ⚠️ **Uso responsable:** esta herramienta está pensada para practicar en tus propios hashes o en entornos autorizados (CTFs, labs). No la uses contra cuentas o sistemas de terceros sin permiso explícito.
+
+## ⚙️ Instalación
+
+No requiere librerías externas, solo Python 3.9 o superior.
+
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/dr3wh4k/hash-toolkit.git
+cd hash-toolkit
+
+# 2. Comprueba que tienes Python 3.9+
+python3 --version
+
+# 3. (Opcional) Dale permisos de ejecución al script
+chmod +x hash_toolkit.py
+
+# 4. Listo, ya puedes ejecutarlo
+python3 hash_toolkit.py --help
+```
+
+No hace falta `pip install` ni entorno virtual, ya que solo usa la librería estándar (`hashlib`, `argparse`, `time`).
 
 ## 🚀 Uso
 
