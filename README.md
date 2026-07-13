@@ -1,4 +1,4 @@
-# 🔓 Hash Toolkit — Identificador y Cracker de Hashes (educativo)
+#  Hash Toolkit — Identificador y Cracker de Hashes (educativo)
 
 Herramienta de línea de comandos escrita en Python que:
 
@@ -7,9 +7,9 @@ Herramienta de línea de comandos escrita en Python que:
 
 Proyecto creado con fines educativos para practicar conceptos de hashing y seguridad de contraseñas en laboratorios propios y CTFs.
 
-> ⚠️ **Uso responsable:** esta herramienta está pensada para practicar en tus propios hashes o en entornos autorizados (CTFs, labs). No la uses contra cuentas o sistemas de terceros sin permiso explícito.
+>  **Uso responsable:** esta herramienta está pensada para practicar en tus propios hashes o en entornos autorizados (CTFs, labs). No la uses contra cuentas o sistemas de terceros sin permiso explícito.
 
-## ⚙️ Instalación
+##  Instalación
 
 No requiere librerías externas, solo Python 3.9 o superior.
 
@@ -30,7 +30,7 @@ python3 hash_toolkit.py --help
 
 No hace falta `pip install` ni entorno virtual, ya que solo usa la librería estándar (`hashlib`, `argparse`, `time`).
 
-## 🚀 Uso
+##  Uso
 
 ```bash
 # Solo identificar el tipo de hash
@@ -53,20 +53,20 @@ $ python3 hash_toolkit.py d6a6bc0db10694a2d90e3a69648f3a03 -w sample_wordlist.tx
 [+] ¡Encontrado! 'hacker' -> algoritmo: md5 (en 0.00s)
 ```
 
-## 🧠 Cómo funciona
+##  Cómo funciona
 
 - La **identificación** se basa en la longitud del hash en hexadecimal (32 chars → MD5, 40 → SHA1, 64 → SHA256, etc.). No es 100% infalible ya que varios algoritmos comparten longitud, pero da candidatos razonables.
 - El **cracking** genera el hash de cada palabra de la wordlist con cada algoritmo candidato y compara contra el hash objetivo — el mismo principio que usan herramientas como `hashcat` o `john`, simplificado.
 - Incluye una `sample_wordlist.txt` pequeña para probar rápido; puedes sustituirla por wordlists más grandes (ej. `rockyou.txt`).
 
-## 🛠️ Posibles mejoras (ideas para seguir el proyecto)
+##  Posibles mejoras (ideas para seguir el proyecto)
 
 - Soporte para hashes salados con formato `hash:salt`
 - Multithreading para acelerar el diccionario en wordlists grandes
 - Soporte para bcrypt/scrypt (requieren comparación distinta, no por igualdad directa)
 - Modo interactivo / barra de progreso
 
-## 📦 Requisitos
+##  Requisitos
 
 Solo Python 3.9+ (usa la librería estándar `hashlib`, sin dependencias externas).
 
