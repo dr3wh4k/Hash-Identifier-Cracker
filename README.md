@@ -15,7 +15,7 @@ No requiere librerías externas, solo Python 3.9 o superior.
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/dr3wh4k/hash-toolkit.git
+git clone https://github.com/dr3wh4k/Hash-Identifier-Cracker
 cd hash-toolkit
 
 # 2. Comprueba que tienes Python 3.9+
